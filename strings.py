@@ -24,3 +24,11 @@ print(student_details)
 name = "Olaki Edwin Oryokot"
 message = f'Hi {name}'
 print(message)
+
+# Concatenating Python strings
+greeting = "Hello BBC " "Good Morning"
+print(greeting)
+
+greeting = 'Good afternoon, '
+student = 'Edwin'
+print(greeting + student)
