@@ -19,3 +19,8 @@ Campus Details: MUBS Nakawa
     -Programme: BBC
 '''
 print(student_details)
+
+# Using variables in Python strings with the f-strings
+name = "Olaki Edwin Oryokot"
+message = f'Hi {name}'
+print(message)
