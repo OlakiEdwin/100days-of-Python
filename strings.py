@@ -50,3 +50,8 @@ print(str_len)
 # Slicing strings
 str = "Python String"
 print(str[0:2])
+
+# Python strings are immutable
+str = "Python String"
+new_str = "J" + str[1:]
+print(new_str)
