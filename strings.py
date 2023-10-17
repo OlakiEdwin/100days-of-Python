@@ -32,3 +32,12 @@ print(greeting)
 greeting = 'Good afternoon, '
 student = 'Edwin'
 print(greeting + student)
+
+# Accessing string elements
+str = "Business Computing"
+print(str[0])
+print(str[1])
+
+str = "Business Computing"
+print(str[-1])
+print(str[-2])
