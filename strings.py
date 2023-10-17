@@ -41,3 +41,8 @@ print(str[1])
 str = "Business Computing"
 print(str[-1])
 print(str[-2])
+
+# Getting the length of a string
+str = "Python String"
+str_len = len(str)
+print(str_len)
