@@ -46,3 +46,7 @@ print(str[-2])
 str = "Python String"
 str_len = len(str)
 print(str_len)
+
+# Slicing strings
+str = "Python String"
+print(str[0:2])
