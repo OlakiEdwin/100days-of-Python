@@ -55,3 +55,7 @@ print(str[0:2])
 str = "Python String"
 new_str = "J" + str[1:]
 print(new_str)
+
+# Underscores in numbers
+count = 10_000_000_000
+print(count)
