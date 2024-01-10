@@ -23,3 +23,9 @@ print(f'The net price is ${net_price}')
 
 >>> type(True)
 <class 'bool'>
+
+
+# The number 100 has the type of int
+# The number 2.0 has the type of float
+# The string 'Hello' has the type of str
+# And the True value has the type of bool
