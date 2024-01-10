@@ -10,3 +10,16 @@ price = input('Enter the price ($):')
 tax = input('Enter the tax rate (%):')
 net_price = int(price) * int(tax) / 100
 print(f'The net price is ${net_price}')
+
+# Getting the type of a value
+>>> type(100)
+<class 'int'>
+
+>>> type(2.0)
+<class 'float'>
+
+>>> type('Hello')
+<class 'str'>
+
+>>> type(True)
+<class 'bool'>
