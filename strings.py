@@ -59,3 +59,10 @@ print(new_str)
 # Underscores in numbers
 count = 10_000_000_000
 print(count)
+
+first_name = 'Jamila '
+last_name = 'Smith'
+full_name = (first_name + last_name)
+print(full_name)
+print(len(first_name))
+print(len(full_name))
