@@ -1,19 +1,13 @@
-age = 18
-age2 = 17
+# age = 18
+# age2 = 17
 
-def check_age():
-    print('Check age function was invoked')
+def check_age(age):
+    if age < 18:
+        print('Not an adult')
+    else:
+        print('I am an adult')
 
-check_age()
-
-if age < 18:
-    print('Not an adult')
-
-else:
-    print('An adult')
-
-if age2 < 18:
-    print('Not an adult')
-
-else:
-    print('An adult')
+check_age(18)
+check_age(30)
+check_age(90)
+check_age(15)
