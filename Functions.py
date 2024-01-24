@@ -7,6 +7,9 @@ def check_age(age):
     else:
         print('I am an adult')
 
+print('hello'.endswith('O'))
+print('hello'.endswith('o'))
+
 check_age(18)
 check_age(30)
 check_age(90)
