@@ -11,9 +11,16 @@
 
 
 
-def str_count(strng, letter):
-    return strng.count(letter)
+# def str_count(strng, letter):
+#     return strng.count(letter)
+#
+# print(str_count("Hello", 'o'))
+# print(str_count("Hello", 'l'))
+# print(str_count("", 'z'))
 
-print(str_count("Hello", 'o'))
-print(str_count("Hello", 'l'))
-print(str_count("", 'z'))
+
+def digitize(n):
+    return [int(digit) for digit in str(n)][::-1]
+
+print(digitize(35231))
+print(digitize(0))
