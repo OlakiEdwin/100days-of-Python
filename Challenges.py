@@ -19,8 +19,27 @@
 # print(str_count("", 'z'))
 
 
-def digitize(n):
-    return [int(digit) for digit in str(n)][::-1]
+# def digitize(n):
+#     return [int(digit) for digit in str(n)][::-1]
+#
+# print(digitize(35231))
+# print(digitize(0))
 
-print(digitize(35231))
-print(digitize(0))
+
+# Is the string uppercase
+def is_uppercase(inp):
+    return inp.isupper() or not any(c.islower() for c in inp)
+
+print(is_uppercase("c"))
+print(is_uppercase("C"))
+print(is_uppercase("hello I AM DONALD"))
+print(is_uppercase("HELLO I AM DONALD"))
+
+def is_uppercase(inp):
+    return inp.isupper() or not any(c.islower() for c in inp)
+
+print(is_uppercase("OlaKI edwIN"))
+print(is_uppercase("OLAKI EDWIN"))
+print(is_uppercase("olakiedwin"))
+print(is_uppercase("EDWINolaki"))
+print(is_uppercase("edwinOLAKI"))
